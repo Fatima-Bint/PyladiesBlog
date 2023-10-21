@@ -4,35 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogpost from Pyladies Night Event</title>
+    <!-- Include the Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Custom CSS for image height */
+        .row.bottom-buffer .img-fluid {
+            margin-bottom: 20px;
+            height: 200px; /* Adjust the height as needed */
+        }
+        .bottom-buffer {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <main>
-        <div>
-            <div>
-                <img src="images/cheukt.avif" alt="Headshot of cheuk ting ho on a flyer with darkblue background" />
+    <main class="container">
+        <div class="row bottom-buffer">
+            <div class="col-md-4">
+                <div>
+                    <img src="images/cheukt.avif" alt="Headshot of Cheuk Ting Ho on a flyer with a dark blue background" class="img-fluid">
+                </div>
+                <a href="https://blog.pythonghana.org/how-to-set-up-your-talk-or-tutorial-proposal-for-a-python-conference">How to set up your talk or tutorial proposal for a Python conference</a>
             </div>
-            <a href="https://blog.pythonghana.org/how-to-set-up-your-talk-or-tutorial-proposal-for-a-python-conference"> How to set up your talk or tutorial proposal for a Python conference </a>
+            <div class="col-md-4">
+                <div>
+                    <img src="images/IWD.jpg" alt="A flyer for International Women's Day 2023" class="img-fluid">
+                </div>
+                <a href="https://blog.pythonghana.org/pyladies-ghana-iwd2023">PyLadies Ghana IWD 2023</a>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <img src="images/ar-vr.avif" alt="A flyer for AR VR with Python" class="img-fluid">
+                </div>
+                <a href="https://blog.pythonghana.org/python-in-arvr-development-workshop-0823">Python in AR/VR Development - Workshop</a>
+            </div>
         </div>
 
-        <div>
-            <div>
-                <img src="images/IWD.jpg" alt="a flyer for international women day 2023" />
+        <div class="row bottom-buffer">
+            <div class="col-md-4">
+                <div>
+                    <img src="images/lily.avif" alt="Headshot of Lily on a flyer with a dark blue background" class="img-fluid">
+                </div>
+                <a href="https://blog.pythonghana.org/how-to-start-a-podcast">How To Start A Podcast</a>
             </div>
-            <a href="https://blog.pythonghana.org/pyladies-ghana-iwd2023">PyLadies Ghana IWD2023</a>
-        </div>
-        <div>
-            <div>
-                <img src="images/ar-vr.avif" alt="a flyer for Ar Vr with python" />
-            </div>
-            <a href="https://blog.pythonghana.org/python-in-arvr-development-workshop-0823">Python in AR/VR Development - workshop</a>
-        </div>
-        <div>
-            <div>
-                <img src="images/lily.avif" alt="Headshot of Lily on a flyer with darkblue background" />
-            </div>
-            <a href="https://blog.pythonghana.org/how-to-start-a-podcast">How To Start A Podcast</a>
+            <!-- Add more items as needed -->
         </div>
     </main>
-    
+
+    <!-- Include Bootstrap JS and jQuery (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
